@@ -7,6 +7,7 @@ import Navbar from "./Components/navbar/Navbar";
 import SideDrawer from "./Components/sidedrawer/Sidedrawer";
 import Homepage from "./Pages/homepage/Homepage";
 import Chatbot from "./Components/chatbot/chatbot";
+import Footer from "./Components/footer/footer";
 
 
 
@@ -38,8 +39,10 @@ function App() {
             <Route path="/" element={<Homepage />} />
           </Routes>
           <Chatbot></Chatbot>
+          <Footer/>
           
         </div>
+    
         
       </BrowserRouter>
 
